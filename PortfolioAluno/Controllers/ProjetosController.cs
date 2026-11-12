@@ -39,9 +39,10 @@ namespace PortfolioAluno.Controllers
             {
                 return NotFound();
             }
-            projetosAtual.Experiencia = projetos.Experiencia;
+            projetosAtual.Titulo = projetos.Titulo;
+            projetosAtual.Descricao = projetos.Descricao;
             projetosAtual.Tecnologias = projetos.Tecnologias;
-            projetosAtual.FerramentasDeIa = projetos.FerramentasDeIa;   
+            projetosAtual.imagem = projetos.imagem;
 
             return Ok("Projetos Alterados!");
 

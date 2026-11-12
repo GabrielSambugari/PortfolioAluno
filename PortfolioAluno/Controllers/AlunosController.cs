@@ -42,7 +42,10 @@ namespace PortfolioAluno.Controllers
             }
             alunoAtual.CPF = aluno.CPF;
             alunoAtual.Nome = aluno.Nome;
-           alunoAtual.Turmaid = aluno.Turmaid;
+            alunoAtual.Experiencia = aluno.Experiencia;
+            alunoAtual.Tecnologias = aluno.Tecnologias;
+            alunoAtual.FerramentasDeIa = aluno.FerramentasDeIa;
+            alunoAtual.Turmaid = aluno.Turmaid;
 
             return Ok("Aluno Alterado!");
         }
